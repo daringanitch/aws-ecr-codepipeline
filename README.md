@@ -23,6 +23,6 @@ This repository demonstrates how you can use Terraform to provision a AWS CodePi
   
 10. git add., git commit -am"initial" then git push the new files to code commit.
 
-11. in aws console go to codepipline to see you pipline working.
+11. in aws console go to codepipline to see your pipeline working.
 
 12. if it doesnt work troubleshoot.
