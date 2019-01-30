@@ -3,7 +3,7 @@ variable "image_name" {
 }
 
 module "codecommit-cicd" {
-  source                    = "git::https://github.com/slalompdx/terraform-aws-codecommit-cicd.git?ref=master"
+  source                    = "git::https://github.com/daringanitch/terraform-aws-codecommit-cicd.git?ref=master"
   repo_name                 = "docker-image-build"                                                             # Required
   organization_name         = "yourorg"                                                                  # Required
   repo_default_branch       = "master"                                                                         # Default value
