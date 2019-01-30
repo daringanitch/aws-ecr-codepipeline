@@ -25,4 +25,4 @@ This repository demonstrates how you can use Terraform to provision a AWS CodePi
 
 11. in aws console go to codepipline to see your pipeline working.
 
-12. if it doesnt work troubleshoot.
+12. if it doesnt work, troubleshoot.
