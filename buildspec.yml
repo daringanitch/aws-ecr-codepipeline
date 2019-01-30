@@ -12,9 +12,9 @@ phases:
       - echo build Docker image on `date`
       - cd src
       - docker build -t sample-express-app:latest .
-      - docker tag sample-express-app:latest 858379896640.dkr.ecr.us-west-2.amazonaws.com/sample-express-app
+      - docker tag sample-express-app:latest <ecr repo>/sample-express-app
   post_build:
     commands:
       - echo build Docker image complete `date`
       - echo push latest Docker images to ECR...
-      - docker push 858379896640.dkr.ecr.us-west-2.amazonaws.com/sample-express-app
+      - docker push <ecr-repo>/sample-express-app
