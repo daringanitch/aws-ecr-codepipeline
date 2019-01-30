@@ -5,7 +5,7 @@ variable "image_name" {
 module "codecommit-cicd" {
   source                    = "git::https://github.com/slalompdx/terraform-aws-codecommit-cicd.git?ref=master"
   repo_name                 = "docker-image-build"                                                             # Required
-  organization_name         = "kylegalbraith"                                                                  # Required
+  organization_name         = "yourorg"                                                                  # Required
   repo_default_branch       = "master"                                                                         # Default value
   aws_region                = "us-west-2"                                                                      # Default value
   char_delimiter            = "-"                                                                              # Default value
