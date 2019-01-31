@@ -4,7 +4,7 @@ This repository demonstrates how you can use Terraform to provision a AWS CodePi
 1. clone repo locally
 2. cd into the ifrastructure folder find cicd-pipeline-with-ecr.tf
 3. edit file replacing below values  with what you want
-  * repo_name                 = "docker-image-build"                                                             # Required
+  * repo_name                 = ""your-docker-image-build-name"                                                       
   * organization_name         = "yourorg"    
 4. run terrafrom apply
   * ex: terraform apply -auto-approve -var image_name=yourdockerfile
