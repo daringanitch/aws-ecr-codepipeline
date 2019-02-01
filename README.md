@@ -18,8 +18,7 @@ This repository demonstrates how you can use Terraform to provision a AWS CodePi
 
 8. Add your docker file, code, buidlspec.yml, buildspec_test.yml to this local cloned repo.
 
-9. Modify the buildspec.yml file add   "ecr_image_respository_url" where  indicated
-  * under build and post build.
+9. Modify the buildspec.yml file add   "ecr_image_respository_url" where  indicated, under build and post build.
   
 10. git add., git commit -am"initial" then git push the new files to code commit.
 
